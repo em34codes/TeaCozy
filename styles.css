@@ -1,0 +1,177 @@
+/* TEA COZY */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell !important;
+    background-color: black;
+    opacity: 0.9 !important;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.navlinks {
+    display: flex;
+    height: 69px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.navlinks a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/* Mission Section */
+.mission {
+  background-color: black;
+  height: 700px;
+  background-image: url(../resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover
+  display: flex;
+  padding-top: 350px;
+}
+
+.mtext {
+    background: black;
+    width: 100%;
+    height: 125px;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.mtext h2, {
+    text-align: center;
+    padding-top: 5px;
+    color: seashell;
+}
+
+.mtext h4 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: seashell;
+}
+
+/* Monthly Teas Section */
+
+.teamonth {
+    text-align: center;
+    color: seashell; 
+}
+
+.teacup h4 {
+    color: seashell;
+} 
+
+.mtea-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacup img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+
+/* Locations Section */
+.location-container {
+    text-align: center;
+    color: seashell;
+    background-image: url(../resources/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ltext h2 {
+    text-align: center;
+    display: flex;
+    color: seashell;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+    left: 17em;
+    bottom: 5.5em;
+}
+
+.items-location {
+    margin: 40px auto 0px auto;
+    display: flex;
+    text-align: center;
+    color: seashell;
+    opacity: 1;
+}
+
+.site {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    align-items: center;
+    color: seashell;
+}
+
+/* Footer Section */
+footer {
+    color: seashell;
+    padding-top: 40px;
+}
+
+#contact {
+    color: seashell;
+    align-items: center;
+    text-align: center;
+    height: 1200px;
+    height: 200px;
+    top: 5em;
+}
+
+
+.copyright {
+    align-items: left;
+    display: flex;
+    margin-left: 20px;
+    color: seashell;
+    opacity: 0.9;
+}
